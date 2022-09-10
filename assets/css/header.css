@@ -1,14 +1,16 @@
-.titulo{
-    height: 100vh;
-    /* background: #4B79A1;  
-    background: -webkit-linear-gradient(to top, #283e51b9, #0A2342b9); 
-    background: linear-gradient(to top, #283e5181, #0a23425d); 
-    background: -olinear-gradient(to top, #283E51b9, #0A2342b9);  */
-      
-    
+.titulo{    
     height: 100vh;
     color: white;
 }
 .titulo h1{
     font-size: 50px;
+    transform: translateY(-300px);
+    animation: downAndShow 1000ms cubic-bezier(0.18, .25, 0.1, 1.15) forwards;
+    color: rgba(255, 255, 255, 0);
+}
+@keyframes downAndShow {
+    to{
+        transform: translateY(-00px);
+        color: rgb(255, 255, 255);
+    }
 }

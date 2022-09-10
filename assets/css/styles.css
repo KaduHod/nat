@@ -13,7 +13,7 @@ body{
 .support-base-div{
     padding: 0px;
     background: -webkit-linear-gradient(to top, #283e51b9, #0A2342b9); 
-    background: linear-gradient(to top, #68567994, #07224246); 
+    background: linear-gradient(to top, #473f5094, #07224246); 
     background: -olinear-gradient(to top, #283E51b9, #0A2342b9); 
     background-attachment: fixed;
 }
@@ -31,7 +31,7 @@ p{
 }
 .paragrafo-cartinha{
     border: 1px solid rgba(255, 255, 255, 0);
-    padding: 2rem;    
+    padding: 5rem;    
     box-sizing: border-box;
     padding-left:100px;
     padding-right:100px; 
