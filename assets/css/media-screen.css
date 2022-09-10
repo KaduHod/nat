@@ -1,0 +1,45 @@
+@media screen and (min-width: 100px){
+    .paragrafo-cartinha{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #third-background{
+        background-position-x: -500px;
+    }
+    #second-background{
+        background-position-x: -500px;
+    }
+    #forth-background{
+        background-position-x: -100px;
+    }
+}
+@media screen and (min-width: 700px){
+    .paragrafo-cartinha{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #third-background{
+        background-position-x: -400px;
+    }
+    #second-background{
+        background-position-x: -400px;
+    }
+    #forth-background{
+        background-position-x: -0px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .paragrafo-cartinha{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #third-background{
+        background-position-x: -250px;
+    }
+    #second-background{
+        background-position-x: -200px;
+    }
+    #forth-background{
+        background-position-x: -0px;
+    }
+}
