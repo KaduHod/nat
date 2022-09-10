@@ -1,0 +1,14 @@
+.titulo{
+    height: 100vh;
+    /* background: #4B79A1;  
+    background: -webkit-linear-gradient(to top, #283e51b9, #0A2342b9); 
+    background: linear-gradient(to top, #283e5181, #0a23425d); 
+    background: -olinear-gradient(to top, #283E51b9, #0A2342b9);  */
+      
+    
+    height: 100vh;
+    color: white;
+}
+.titulo h1{
+    font-size: 50px;
+}

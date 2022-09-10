@@ -6,32 +6,46 @@
 body{
     box-sizing: border-box;
     margin:0;
-    padding:10px;
-    color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
     max-width: 100%;
+    background-color: black;
 }
-#first-background{
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    padding: 1rem;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    box-sizing: border-box;
+.support-base-div{
+    padding: 0px;
+    background: -webkit-linear-gradient(to top, #283e51b9, #0A2342b9); 
+    background: linear-gradient(to top, #68567994, #07224246); 
+    background: -olinear-gradient(to top, #283E51b9, #0A2342b9); 
+    background-attachment: fixed;
 }
-p, h1, h2, h3, li, ul{
+
+p, li, ul{
     text-align:left;
-    max-width: 90%;
+    
+}
+h1, h2, h3{
+    text-align: center;
 }
 p{
     text-indent: 2rem;
-    line-height: 1srem
+    line-height: 3rem
 }
 .paragrafo-cartinha{
     border: 1px solid rgba(255, 255, 255, 0);
-    padding: 3rem;
-    border-radius: 10px;
-    /* box-shadow: 0px 0px 25px rgba(15, 15, 15, 0.438); */
+    padding: 2rem;    
+    box-sizing: border-box;
+    padding-left:100px;
+    padding-right:100px; 
+    margin: 0px;   /* box-shadow: 0px 0px 25px rgba(15, 15, 15, 0.438); */
+}
+.bloco{
+    color: rgb(34, 34, 34);
+}
+.bc-white{
+    background-color: white;
+}
+.bc-grey{
+    background-color: rgb(209, 209, 209);
+    color: rgb(77, 77, 77);
 }
 @keyframes fedout {
     from {
@@ -43,7 +57,7 @@ p{
     }
 }
 .titulo{
-    width: 100vw;
+    width: 100%;
 }
 .lista, .titulo{
       display: flex;
@@ -72,13 +86,7 @@ p{
     height: auto;
 }
 
-#carouselExampleSlidesOnly{
-    width: 70%;
-    height: 100px;
-    margin :auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px black;
-}
-#carouselExampleSlidesOnly img{
-    border-radius: 10px;
+
+img{
+    max-width: 200px;
 }

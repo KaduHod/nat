@@ -1,0 +1,14 @@
+#second-background{
+    background-image: url(/assets/nosso-album/oi12.jpeg);
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#first-background{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-image:url(http://www.script-tutorials.com/demos/360/images/stars.png);
+    background-attachment: fixed;
+}
