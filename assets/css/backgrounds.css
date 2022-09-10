@@ -7,7 +7,7 @@
 #first-background{
     width: 100%;
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
     box-sizing: border-box;
     background-image:url(/assets/nosso-album/stars.png);
      /* background-attachment: fixed; */
