@@ -3,6 +3,9 @@
     font-family: Poppins;
     box-sizing: border-box;
 }
+.bloco-100vh{
+    height: 100vh;
+}
 body{
     box-sizing: border-box;
     margin:0;
@@ -39,13 +42,14 @@ p{
     margin: 0px;   /* box-shadow: 0px 0px 25px rgba(15, 15, 15, 0.438); */
 }
 .bloco{
-    color: rgb(34, 34, 34);
+   
 }
 .bc-white{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.856);
+    color: rgb(77, 77, 77);
 }
 .bc-grey{
-    background-color: rgb(209, 209, 209);
+    background-color: rgba(209, 209, 209, 0.836);
     color: rgb(77, 77, 77);
 }
 @keyframes fedout {

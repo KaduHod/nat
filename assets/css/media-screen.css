@@ -30,8 +30,9 @@
 }
 @media screen and (min-width: 1000px){
     .paragrafo-cartinha{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+        font-size: 25px;
     }
     #third-background{
         background-position-x: -250px;
@@ -41,5 +42,43 @@
     }
     #forth-background{
         background-position-x: -0px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 1300px){
+    .paragrafo-cartinha{
+        padding-left: 150px;
+        padding-right: 150px;
+        font-size: 25px;
+        line-height: 7rem;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    #third-background{
+        background-position-x: 0px;
+    }
+    #second-background{
+        background-position-x: -200px;
+    }
+    #forth-background{
+        background-position-x: -0px;
+    }
+    .bloco-100vh{
+        height: 100vh;
     }
 }
