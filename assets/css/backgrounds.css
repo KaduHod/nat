@@ -1,7 +1,7 @@
 #second-background{
     background-image: url(/assets/nosso-album/oi10.jpeg);
     height: 100vh;
-    background-attachment: fixed;
+     /* background-attachment: fixed; */
     background-size: cover;
 }
 #first-background{
@@ -10,12 +10,12 @@
     background-size: cover;
     box-sizing: border-box;
     background-image:url(/assets/nosso-album/stars.png);
-    background-attachment: fixed;
+     /* background-attachment: fixed; */
 }
 #third-background{
     background-image: url(/assets/nosso-album/oi9.jpeg);
     height: 100vh;
-    background-attachment: fixed;
+    /*   background-attachment: fixed; */ 
     background-size: cover;
     background-position-y: 000px;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 #forth-background{
     background-image: url(/assets/nosso-album/oi8.jpeg);
     height: 100vh;
-    background-attachment: fixed;
+     /* background-attachment: fixed; */
     background-size: cover;
     background-position-y: 000px;
     background-repeat: no-repeat;
